@@ -25,10 +25,14 @@ function changeEvent(){
         signup.classList.add("active");
         login.classList.remove("active");
         login_interface=!login_interface;
+        login_error.innerHTML="";
+        signup_error.innerHTML=""
     }else{
         signup.classList.remove("active");
         login.classList.add("active");
         login_interface=!login_interface;
+        login_error.innerHTML="";
+        signup_error.innerHTML=""
     }
 }
 
